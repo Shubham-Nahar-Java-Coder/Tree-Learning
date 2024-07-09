@@ -7,7 +7,7 @@ public class BinarySearchTree{
         Node left;
         Node right;
 
-        private Node(int value){
+        Node(int value){
             this.value = value;
         }
     }
