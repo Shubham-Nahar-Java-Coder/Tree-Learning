@@ -19,8 +19,19 @@ public class Main {
 
         // System.out.println(myBST.root.left.right.value);
 
-        System.out.println(myBST.contains(82));
 
         System.out.println(myBST.contains(100));
+
+        System.out.println(myBST.rContains(52));
+
+        System.out.println(myBST.rContains(0));
+
+        myBST.rInsert(11);
+
+        System.out.println(myBST.rContains(11));
+
+        myBST.deleteNode(82);
+        System.out.println(myBST.contains(82));
+
     }
 }
