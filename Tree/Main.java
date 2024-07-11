@@ -12,10 +12,10 @@ public class Main {
         myBST.insert(21);
         myBST.insert(76);
         myBST.insert(18);
-        myBST.insert(52);
-        myBST.insert(82);
-
         myBST.insert(27);
+        myBST.insert(52);
+
+        myBST.insert(82);
 
         // System.out.println(myBST.root.left.right.value);
 
@@ -26,12 +26,19 @@ public class Main {
 
         System.out.println(myBST.rContains(0));
 
-        myBST.rInsert(11);
+        // myBST.rInsert(11);
 
         System.out.println(myBST.rContains(11));
 
-        myBST.deleteNode(82);
+        // myBST.deleteNode(82);
         System.out.println(myBST.contains(82));
 
+        System.out.println("BFS: "+myBST.BFS());
+
+        System.out.println("DFS PreOrder: "+myBST.DFSPreOrder());
+
+        System.out.println("DFS Post Order: "+myBST.DFSPostOrder());
+
+        System.out.println("DFS In Order: "+myBST.DFSInOrder());
     }
 }
